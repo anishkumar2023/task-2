@@ -1,0 +1,98 @@
+*{
+	margin:0;
+	padding:0;
+	/* background-color:red; */
+	box-sizing:border-box;
+}
+.container{
+	width:90%;
+	padding:31px;
+}
+.row{
+	display:flex;
+	gap:2%;
+}
+.col1{
+	width:33%;
+	/* padding:0 15px; */
+    border: 1px solid black; 
+	box-shadow:3px 3px 3px 3px;
+}
+.col2{
+	width:33%;
+	/* padding:0 15px; */
+}
+.col{
+	width:33%;
+	padding:0 15px;
+}
+.col2{
+	/* border-style:solid 2px; */
+	border: 1px solid black;
+	/* padding:5px; */
+	box-shadow:3px 3px 3px 3px;
+}
+img{
+width:100%;
+}
+.img{
+	position:relative;
+}
+.p{
+	background-color:orange;
+	top:88%;
+	left:72.5%;
+	position:absolute;
+}
+.gap,a,.gap1{
+	padding:15px;
+}
+.gap1{
+	margin:10px;
+    /* padding:30px; */
+}
+.image{
+	background-color:orange;
+	top:88%;
+	left:77.9%;
+	position:absolute;
+}
+.image2{
+	background-color:orange;
+	top:88%;
+	left:85.5%;
+	position:absolute;
+}
+section{
+	padding-left:20px;
+	margin-top:20px;
+}
+header{
+    text-align:center;
+}	
+.gap:hover{
+	color:orange;
+}
+.gap1:hover{
+	color:orange;
+}
+.gap3:hover{
+	color:orange;
+}
+img:hover{
+	transform:scale(1.1);
+	transition: all 2s ease-in-out;
+}
+.p,.image,.image2{
+	padding:5px; 	
+}
+a{
+	text-decoration:none;
+    color:black;
+}
+a:hover{
+	color:orange;
+}
+.hidden{
+	overflow:hidden;
+}
